@@ -3,7 +3,7 @@ ini_set( 'display_errors', '1');
 print_r($_POST);
 print_r($_GET);
 // Inclui o arquivo class.phpmailer.php localizado na pasta class
-require_once("./lib/PHPMailer/class.phpmailer.php");
+require_once("../lib/PHPMailer/class.phpmailer.php");
  
 // Inicia a classe PHPMailer
 $mail = new PHPMailer(true);
