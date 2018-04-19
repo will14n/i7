@@ -14,7 +14,7 @@ HEROKU_VERSION=$BITBUCKET_COMMIT # BITBUCKET_COMMIT is populated automatically b
 APP_NAME=$HEROKU_APP_NAME
 
 echo "Deploying Heroku Version $HEROKU_VERSION"
-echo "$HEROKU_API_KEY"
+
 URL_BLOB=`curl -s -n -X POST https://api.heroku.com/apps/$APP_NAME/sources \
 -H 'Accept: application/vnd.heroku+json; version=3' \
 -H "Authorization: Bearer $HEROKU_API_KEY"`
