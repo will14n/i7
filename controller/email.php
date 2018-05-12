@@ -15,6 +15,8 @@ $mail->IsSMTP(); // Define que a mensagem será SMTP
 try {
 
 	$mail = new PHPMailer;
+	$mail->IsSMTP();
+	$mail->Host = "smtp.example.com";
 	$mail->setFrom('contato@i7.eng.br', 'i7');
 	$mail->addAddress('willianf4m@gmail.com', 'willian');
 	$mail->Subject  = 'First PHPMailer Message';
