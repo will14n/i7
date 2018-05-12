@@ -1,3 +1,64 @@
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	#atuacao h2::before {
+		content: "";
+		position: absolute;
+		bottom: 6px;
+		left: -4%;
+		width: 4%;
+		border-bottom: 1px solid #faa541;
+	}
+	#atuacao h2::after {
+		content: "";
+		position: absolute;
+		bottom: 6px;
+		right: -4%;
+		width: 4%;
+		border-bottom: 1px solid #faa541;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	#imagemAtuacao1 {
+		margin-top: -48px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	#imagemAtuacao1 {
+		margin-top: -48px;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	#imagemAtuacao1 {
+		margin-top: -48px;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	#atuacao h2::before {
+		content: "";
+		position: absolute;
+		bottom: 6px;
+		left: 25%;
+		width: 9%;
+		border-bottom: 1px solid #faa541;
+	}
+	#atuacao h2::after {
+		content: "";
+		position: absolute;
+		bottom: 6px;
+		right: 25%;
+		width: 9%;
+		border-bottom: 1px solid #faa541;
+	}
+} 
+
 i {
 	color: #1a65b0;
 	font-size: 48px;
@@ -130,7 +191,7 @@ LOADING
 
 #atuacao {
 	background-color: #1d282d;
-		color: #fff;
+	color: #fff;
 	width: 100%;
 	padding: 90px 0;
 	text-align: center;
@@ -185,22 +246,6 @@ LOADING
 	display: block;
 	position: relative;
 }
-#atuacao h2:before {
-	content: "";
-	position: absolute;
-	bottom: 6px;
-	left: 16%;
-	width: 20%;
-	border-bottom: 1px solid #faa541;
-}
-#atuacao h2:after {
-	content: "";
-	position: absolute;
-	bottom: 6px;
-	right: 16%;
-	width: 20%;
-	border-bottom: 1px solid #faa541;
-}
 #atuacao p {
 	width: 90%;
 	margin: 0 auto;
@@ -220,13 +265,13 @@ LOADING
 }
 .atuacao1 {
 	position:relative;
-    width:300px;
+    /*width:300px;*/
     height:200px;
 }
 .atuacao1 img {
     position:absolute;
     left: calc(0px);
-    padding: calc(163px - 127px) 126px;
+    padding: 0px calc(100% / 3);
     cursor:pointer;
     background-color: #1D282D;
     -webkit-transition:bottom .3s ease-in-out;
