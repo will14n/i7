@@ -5,10 +5,15 @@
 	}
 	.carousel-caption {
 		padding: 0 150px;
-		top: 42%;
+		top: 40%;
 		left: 40%;
 	}
-
+	#logo {
+		background-size: 57px;
+	}
+	.navbar {
+	    height: 72px;
+	}
 }
 @media (max-width: 1200px) {
 	#sobre #grid .mix {
@@ -19,7 +24,12 @@
 		top: 42%;
 		left: 40%;
 	}
-
+	#logo {
+		background-size: 57px;
+	}
+	.navbar {
+	    height: 72px;
+	}
 }
 @media (max-width: 1000px) {
 	#sobre #grid .mix {
@@ -28,10 +38,15 @@
 
 	.carousel-caption {
 		padding: 0 55px;
-		top: 32%;
+		top: 41%;
 		left: 40%;
 	}
-
+	#logo {
+	    background-size: 43px;
+	}
+	.navbar {
+	    height: 10%;
+	}
 }
 @media (max-width: 900px) {
 	#sobre .container h2:before {
@@ -50,6 +65,12 @@
 		padding: 0 150px;
 		top: 42%;
 		left: 40%;
+	}
+	#logo {
+		background-size: 57px;
+	}
+	.navbar {
+	    height: 10%;
 	}
 }
 @media (max-width: 768px) {
@@ -80,6 +101,12 @@
 		width: 18%;
 		right: 11%;
 	}
+	#logo {
+		background-size: 57px;
+	}
+	.navbar {
+	    height: 10%;
+	}
 }
 @media (max-width: 525px) {
 	#sobre h2:before {
@@ -98,12 +125,25 @@
 		margin-top: 35px;
 		padding-top: 30px;
 	}
+	#logo {
+		background-size: 57px;
+	}
+	.navbar {
+	    height: 10%;
+	}
 }
 @media (max-width: 480px) {
 	.carousel-caption {
 		padding: 0 10px;
-		top: 33%;
+		top: 40%;
 		left: 0%;
+	}
+	#logo {
+	    background-size: 44px;
+	    margin-left: 5px;
+	}
+	.navbar {
+	    height: 59px;
 	}
 }
 @media (max-width: 340px) {
@@ -116,8 +156,15 @@
 	}
 	.carousel-caption {
 		padding: 0 10px;
-		top: 33%;
+		top: 43%;
 		left: 0%;
+	}
+	#logo {
+	    background-size: 40px;
+	    margin-left: 5px;
+	}
+	.navbar {
+	    height: 56px;
 	}
 }
 
@@ -156,9 +203,9 @@ i {
 
 #logo {
 	background-image: url(../img/logo.png);
-	background-size: 38px;
 	background-repeat: no-repeat;
 	background-position: left;
+	height: 100%;
 }
 
 .cor-base {
