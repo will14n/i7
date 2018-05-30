@@ -14,8 +14,9 @@
 	.navbar {
 	    height: 72px;
 	}
-	body {
+	#home {
 		margin-top: 72px;
+		height: calc(100% - 72px)
 	}
 }
 @media (max-width: 1200px) {
@@ -33,8 +34,9 @@
 	.navbar {
 	    height: 72px;
 	}
-	body {
+	#home {
 		margin-top: 72px;
+		height: calc(100% - 72px)
 	}
 }
 @media (max-width: 1000px) {
@@ -53,8 +55,9 @@
 	.navbar {
 	    height: 10%;
 	}
-	body {
+	#home {
 		margin-top: 10%;
+		height: calc(100% - 10%)
 	}
 }
 @media (max-width: 900px) {
@@ -81,8 +84,9 @@
 	.navbar {
 	    height: 10%;
 	}
-	body {
+	#home {
 		margin-top: 10%;
+		height: calc(100% - 10%)
 	}
 }
 @media (max-width: 768px) {
@@ -119,8 +123,9 @@
 	.navbar {
 	    height: 10%;
 	}
-	body {
+	#home {
 		margin-top: 10%;
+		height: calc(100% - 10%)
 	}
 }
 @media (max-width: 525px) {
@@ -146,8 +151,9 @@
 	.navbar {
 	    height: 10%;
 	}
-	body {
+	#home {
 		margin-top: 10%;
+		height: calc(100% - 10%)
 	}
 }
 @media (max-width: 480px) {
@@ -163,8 +169,19 @@
 	.navbar {
 	    height: 59px;
 	}
-	body {
+	#home {
 		margin-top: 59px;
+		height: calc(100% - 59px)
+	}
+	.logo2 {
+		width: 75% !important;
+	}
+	.carousel-caption .btn {
+		font-size: 13px !important;
+		padding: 10px 10px !important;
+	}
+	.carousel-control-prev, .carousel-control-next {
+		display: none;
 	}
 }
 @media (max-width: 340px) {
@@ -187,18 +204,42 @@
 	.navbar {
 	    height: 56px;
 	}
-	body {
+	#home {
 		margin-top: 56px;
+		height: calc(100% - 56px)
 	}
+	.logo2 {
+		width: 75% !important;
+	}
+	.carousel-caption .btn {
+		font-size: 13px !important;
+		padding: 10px 10px !important;
+	}
+	.carousel-inner {
+		font-size: 14px;
+	}
+	.carousel-control-prev, .carousel-control-next {
+		display: none;
+	}
+}
+
+html, body {
+	height: 100%;
 }
 
 i {
 	color: #1a65b0;
 	font-size: 48px;
 }
-.carousel-inner {
-	height: 800px;
+
+.logo2 {
+	width: 100%;
 }
+
+.carousel-inner {
+	height: 100%;
+}
+
 .carousel-caption {
 
 	position: absolute;
@@ -240,7 +281,6 @@ i {
 
 #home {
 	background: url(../img/home.jpg) no-repeat 50% 50%;
-	height: 800px;
 	background-attachment: fixed;
 	background-size: cover;
 }
