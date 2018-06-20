@@ -303,9 +303,8 @@ i {
 	/*background-color: #f4511e;*/
 	z-index: 9999;
 	border: 0;
-	font-size: 13px !important;
+	font-size: 14px !important;
 	line-height: 1.42857143 !important;
-	letter-spacing: 4px;
 	border-radius: 0;
 	padding: 0;
 }
@@ -385,7 +384,6 @@ LOADING
 */
 
 ::-moz-selection {
-	background: black;
 	color: white;
 	text-shadow: none;
 }
