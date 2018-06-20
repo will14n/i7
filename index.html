@@ -13,13 +13,58 @@
 		
 		<!-- Estilo -->
 		<link rel="stylesheet" href="./css/style.css">
+		<style type="text/css">
+	@media (min-width: 768px) {
+		#main-nav {
+			line-height: 0;
+			text-align: center;
+		}
+		#main-menu {
+			display: inline-block;
+		}
+	}
+</style>
 
 		<title>i7</title>
 	</head>
 	<body data-spy="scroll" data-target=".navbar" data-offset="60">
 
+	<nav class="navbar navbar-expand-lg fixed-top" style="margin-top: 10px; ">
+
+			<!-- <div class="container" id="logo"> -->
+			<div class="container" >
+
+				<div class="navbar-header navbar-right">
+					<a class="navbar-brand" href="#home"></a>
+				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBar" aria-controls="navBar" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse bg-dark justify-content-md-center" id="navBar">
+					<ul class="navbar-nav">
+						<li class="nav-item active">
+							<a class="nav-link" href="#home"><b>Home</b> <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#atuacao"><b>Sobre Nós</b></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contato"><b>Contato</b></a>
+						</li>
+						<!-- <li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown08" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown08">
+								<a class="dropdown-item" href="#">Action</a>
+								<a class="dropdown-item" href="#">Another action</a>
+								<a class="dropdown-item" href="#">Something else here</a>
+							</div>
+						</li> -->
+					</ul>
+				</div>
+			</div>
+		</nav>
 		<!-- Navigation -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="display: none" >
 
 			<div class="container" id="logo">
 
@@ -33,6 +78,9 @@
 					<ul class="navbar-nav">
 						<li class="nav-item active">
 							<a class="nav-link" href="#home"><b>Home</b> <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#sobre"><b>Portifólio</b></a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#atuacao"><b>Sobre Nós</b></a>
@@ -82,7 +130,7 @@
 									<!-- <b>i7</b> -->
 									<img src="./img/logo2.png" class="logo2">
 									<!-- <h4>Gestão em Segurança do Trabalho</h4> -->
-								</h2>	
+								</h2>
 					    		Buscamos atender nossos clientes de forma que possamos contribuir para o crescimento e desenvolvimento, visando o atendimento da legislação, criando um ambiente mais seguro e proporcionando uma parceria continua e robusta na gestão de Segurança do Trabalho.
 							</p>
 							<a href="#contato" class="btn btn-primary btn-lg" data-animation="animated zoomIn">Solicite um Contato</a>
@@ -95,7 +143,7 @@
 									<!-- <b>i7</b> -->
 									<img src="./img/logo2.png" class="logo2">
 									<!-- <h4>Gestão em Segurança do Trabalho</h4> -->
-								</h2>	
+								</h2>
 					    		A i7 teve inicio através de uma demanda das normas NR-33 e NR-35
 					    		<br />
 								<b>NRs 33/35 2011</b> – Foi criada uma empresa de consultoria, na parte de treinamentos de NR’s (NR-33 e NR-35)
@@ -130,6 +178,10 @@
 				</article>
 				<div class="clearfix"></div> 
 			</div> -->
+			<article style="margin-top: 30px;">
+					<h2>Nosso Portifólio</h2>
+				</article>
+				<div class="clearfix"></div> 
 			<div id="grid">
 				<div class="mix printing mix_all" style="display: inline-block; opacity: 1;">
 					<img src="./img/NR35.jpg" alt="">
@@ -199,80 +251,75 @@
 					<h2>Sobre a Empresa</h2>
 					<p style="width: 100%">A i7 Gestão de Segurança do Trabalho , conta com profissionais com mais de 15 anos de experiência em gestão de segurança no trabalho e prevenção de riscos, tem como finalidade realizar toda a capacitação e consultoria, no âmbito de segurança do trabalho e prevenção contra incêndios, garantindo a integridade física e mental dos trabalhadores e contribuindo para que as empresas estejam atendendo as normas e legislações vigentes neste quesito.</p>
 				</article>
-				<article style="margin-top: 30px;">
-					<h2>Nosso Portifólio</h2>
+				
+				<article style="padding: 30px 0 0">
+					<h2>Ramos de Atuação</h2>
 				</article>
 				<div class="row">
-					<!-- <div class="col-md-4 atuacao1" > -->
-					<div class="col-md-4" style="margin-top: 20px;" >
+					<div class="col-md-12" style="margin-top: 20px;" >
+						<div>
+							<h3>
+								Textil
+								<img class="top" src="./img/textil.png">
+							</h3>
+						</div>
+					</div>
+					<div class="col-md-12" style="margin-top: 20px;" >
+						<div>
+							<h3>
+								Construção Civil
+								<img src="./img/hard_hat.png">
+							</h3>
+						</div>
+					</div>
+					<div class="col-md-12" style="margin-top: 20px;" >
+						<div>
+							<h3>
+								Metal-Mecânica
+								<img src="./img/mechanic.png">
+							</h3>
+						</div>
+					</div>
+					<div class="col-md-12" style="margin-top: 20px;" >
+						<div>
+							<h3>
+								Portuária
+								<img src="./img/ship.png">
+							</h3>
+						</div>
+					</div>
+					<div class="col-md-12" style="margin-top: 20px;" >
+						<div>
+							<h3>
+								Moveleira
+								<img src="./img/couch.png">
+							</h3>
+						</div>
+					</div>
+					<!-- <div class="col-md-12" style="margin-top: 20px;" >
 						<div>
 							<h3>Projetos</h3>
 							<p>Quisque aliquet ante vitae ante hendrerit pellentesque.</p>
 						</div>
-						<div id="<!-- imagemAtuacao1 -->">
+						<div id="imagemAtuacao1">
 							<img class="top" src="./img/sigmoid_curve.png">
 						</div>
-					<!-- </div><div class="col-md-4 atuacao1" > -->
-					</div><div class="col-md-4" style="margin-top: 20px;" >
+					</div><div class="col-md-4 atuacao1" >
+					</div><div class="col-md-12" style="margin-top: 20px;" >
 						<div>
 							<h3>Capacitação</h3>
 							<p>Quisque aliquet ante vitae ante hendrerit pellentesque.</p>
 						</div>
-						<div id="<!-- imagemAtuacao1 -->">
+						<div id="imagemAtuacao1">
 							<img class="top" src="./img/training.png">
 						</div>
-					</div>
+					</div> -->
 				<!-- </div>
 				<article>
 					<h2>Áreas de Atuação</h2>
 				</article>
 				<div class="row"> -->
 					<!-- <div class="col-md-4 atuacao1" > -->
-					<div class="col-md-4" style="margin-top: 20px;" >
-						<div>
-							<h3>Textil</h3>
-							<p>Quisque aliquet ante vitae ante hendrerit pellentesque.</p>
-						</div>
-						<div id="<!-- imagemAtuacao1 -->">
-							<img class="top" src="./img/graphic_designer.png">
-						</div>
-					</div>
-					<div class="col-md-4" style="margin-top: 20px;" >
-						<div>
-							<h3>Construção Civil</h3>
-							<p>Quisque aliquet ante vitae ante hendrerit pellentesque.</p>
-						</div>
-						<div>
-							<img src="./img/hard_hat.png">
-						</div>
-					</div>
-					<div class="col-md-4" style="margin-top: 20px;" >
-						<div>
-							<h3>Metal-Mecânica</h3>
-							<p>Quisque aliquet ante vitae ante hendrerit pellentesque.</p>
-						</div>
-						<div>
-							<img src="./img/mechanic.png">
-						</div>
-					</div>
-					<div class="col-md-4" style="margin-top: 20px;" >
-						<div>
-							<h3>Portuária</h3>
-							<p>Quisque aliquet ante vitae ante hendrerit pellentesque.</p>
-						</div>
-						<div>
-							<img src="./img/ship.png">
-						</div>
-					</div>
-					<div class="col-md-4" style="margin-top: 20px;" >
-						<div>
-							<h3>Moveleira</h3>
-							<p>Quisque aliquet ante vitae ante hendrerit pellentesque.</p>
-						</div>
-						<div>
-							<img src="./img/couch.png">
-						</div>
-					</div>
 				</div>
 			</div>
 		</section>

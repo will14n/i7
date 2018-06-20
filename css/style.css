@@ -308,7 +308,7 @@ i {
 
 .navbar {
 	margin-bottom: 0;
-	background-color: #f4511e;
+	/*background-color: #f4511e;*/
 	z-index: 9999;
 	border: 0;
 	font-size: 13px !important;
@@ -588,6 +588,17 @@ LOADING
 
 #sobre {
 	top: -10px;
+    background-color: #333633;
+    color: #fff;
+    width: 100%;
+    /*padding: 90px 0 0;*/
+    text-align: center;
+    overflow: hidden;
+}
+#sobre h2 {
+    margin-bottom: 30px;
+    display: block;
+    position: relative;
 }
 #sobre #grid .mix {
 	opacity: 0;
@@ -639,12 +650,13 @@ LOADING
 	position: absolute;
 	top: 0;
 	left: 0;
+	background-color: rgba(0, 0, 0, 0.7);
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 #sobre a:hover {
-	border: none;
+	border: block;
 	background-color: rgba(0, 0, 0, 0.7);
 }
 #sobre a:hover div {
