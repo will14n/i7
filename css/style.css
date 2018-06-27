@@ -313,6 +313,10 @@ i {
 	color: #fff
 }
 
+.bg-dark {
+    background-image: linear-gradient(to bottom, #36759e, #0f0f0f);
+}
+
 .navbar {
 	margin-bottom: 0;
 	/*background-color: #f4511e;*/
