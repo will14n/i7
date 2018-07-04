@@ -668,7 +668,7 @@ LOADING
 }
 #sobre a:hover {
 	border: block;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: unset;
 }
 #sobre a:hover div {
 	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=00);
@@ -685,6 +685,7 @@ LOADING
 	margin: 1% auto 0;
 	z-index: 2;
 	color: #fff;
+	line-height: 1.2;
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
 	-o-transition: all 0.2s ease;
